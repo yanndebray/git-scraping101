@@ -27,3 +27,5 @@ jobs:
           name: weather-boston
           path: weather_boston.csv
   
+env:
+  OWM_KEY: ${{secrets.OWM_KEY}}
